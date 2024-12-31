@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bookworm
+FROM python:3.14.0a3-slim-bookworm
 RUN apt -y update && apt -y upgrade && apt -y install make git
 COPY . /app
 WORKDIR /app
