@@ -44,3 +44,4 @@ notion-client==2.2.1
 certifi==2024.7.4
 aioboto3==12.4.0
 pyasn1<0.6.1
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
